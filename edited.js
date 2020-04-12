@@ -66,8 +66,8 @@ var items = [
     // Three practice items for self-paced reading (one with a comprehension question).
     //
     ["practice", "DashedSentence", {s: "Bu cümle deneye alışmanız için."}],
-    ["practice", "DashedSentence", {s: "Bu da deneye alışmanız için başka bir cümle."},
-                 "Question", {hasCorrect: false, randomOrder: false,
+    ["practice", "DashedSentence", {s: "Bu, deneye alışmanız için son cümle."},
+                 "Soru", {hasCorrect: false, randomOrder: false,
                               q: "Okuduğunuz cümle anlamlı ve doğru muydu?",
                               as: ["Evet.",
                                    "Hayır."]}],
@@ -78,10 +78,10 @@ var items = [
     // There are two conditions.
     //
 
-    [["s1",1], "DashedSentence", {s: "The journalist interviewed an actress who he knew to be shy of publicity after meeting on a previous occasion."},
-               "Question",       {q: "The actress was:", as: ["shy", "publicity-seeking", "impatient"]}],
-    [["s2",1], "DashedSentence", {s: "The journalist interviewed an actress who after meeting on a previous occasion he knew to be shy of publicity."},
-               "Question",       {q: "The actress was:", as: ["shy", "publicity-seeking", "impatient"]}],
+    [["s1",1], "DashedSentence", {s: "Sakın bu oyunları masanın altından dikkat etmeden çıkarma."},
+               "Question",       {q: "Okuduğunuz cümle anlamlı ve doğru muydu?", as: ["Evet.", "Hayır."]}],
+    [["s2",1], "DashedSentence", {s: "Sakın bu oyunları bir daha masanın altından dikkat etmeden çıkar."},
+               "Question",       {q: "Okuduğunuz cümle anlamlı ve doğru muydu?", as: ["Evet.", "Hayır."]}],
 
     // The first question will be chosen if the first sentence from the previous two items is chosen;
     // the second question will be chosen if the second sentence from the previous pair of items is chosen.
