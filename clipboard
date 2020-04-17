@@ -1,0 +1,38 @@
+ [["s1",1], "FlashSentence", {randomOrder: true,
+                                  s: "Sakın bu oyunları masanın altından dikkat etmeden çıkarma."},
+               "Question",       {randomOrder: false, 
+                                  q: "Okuduğunuz cümle anlamlı ve doğru muydu?", as: ["Evet.", "Hayır."]}],
+    [["s2",2], "FlashSentence", {randomOrder: true,
+                                  s: "Sakın bu oyunları bir daha masanın altından dikkat etmeden çıkar."},
+               "Question",       {randomOrder: false, 
+                                  q: "Okuduğunuz cümle anlamlı ve doğru muydu?", as: ["Evet.", "Hayır."]}],
+
+    
+    [["s3",3], "FlashSentence", {randomOrder: true, 
+                                  s: "Toplantıları kimse Zeynep'in kaçırmadığını söyledi."},
+               "Question",       {randomOrder: false, 
+                                  q: "Okuduğunuz cümle anlamlı ve doğru muydu?",
+                                  as: ["Evet.",
+                                       "Hayır."
+                                       ]}],
+    [["s4",4], "FlashSentence", {randomOrder: true, 
+                                  s: "Zeynep'in kimse hiçbir toplantıyı kaçırmadığını söyledi."},
+               "Question",       {randomOrder: false, 
+                                  q: "Okuduğunuz cümle anlamlı ve doğru muydu?", as: ["Evet.","Hayır."
+                                                                     ]}],
+                                  
+                                  -
+                                  
+ ["practice", "FlashSentence", {s: "Bu cümle deneye alışmanız için."}],
+    ["practice", "FlashSentence", {s: "Bu, deneye alışmanız için son cümle."},
+                 "Question", {hasCorrect: false, randomOrder: false,
+                              q: "Okuduğunuz cümle anlamlı ve doğru muydu?",
+                              as: ["Evet.",
+                                   "Hayır."]}],
+    ["practice", "FlashSentence", {s: "Deney bu cümleden sonra başlayacak."}],
+                                  
+                                  -
+                                  
+                                  
+                                  
+                                
